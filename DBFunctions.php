@@ -56,7 +56,7 @@ class DatabaseFunctions
 
 		}
 
-
+		$result->free_result();
 
 		echo json_encode($arr);
 		
